@@ -41,4 +41,6 @@ for i in  range(n):
             print(time_range)
     else:
         print('Not available')
-    print('-----')
+        
+    if i !=n-1:
+        print('-----')
